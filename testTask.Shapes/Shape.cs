@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace testTask.Shapes
+﻿namespace testTask.Shapes
 {
     public abstract class Shape
     {
-        public abstract double Square { get;}
+        public abstract double Square { get; }
     }
 
 

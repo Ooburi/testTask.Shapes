@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using testTask.Shapes;
+﻿using testTask.Shapes;
 using Xunit;
 
 namespace Tests
@@ -23,7 +18,7 @@ namespace Tests
             double result = circle.Square;
 
             // Assert
-            Assert.True((78.539816-result)<0.001);
+            Assert.True((78.539816 - result) < 0.001);
         }
         /// <summary>
         /// вычисление площади треугольника
@@ -32,7 +27,7 @@ namespace Tests
         public void TriangleSquare()
         {
             // Arrange
-            Shape triangle = new Triangle(3,4,5);
+            Shape triangle = new Triangle(3, 4, 5);
 
             // Act
             double result = triangle.Square;

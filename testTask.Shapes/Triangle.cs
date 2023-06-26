@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace testTask.Shapes
+﻿namespace testTask.Shapes
 {
     public class Triangle : Shape
     {
         /// <summary>
         /// p - half perimeter
         /// </summary>
-        private double _a,_b,_c,_p;
+        private double _a, _b, _c, _p;
         /// <summary>
         /// a,b,c - triangle`s sides
         /// </summary>
