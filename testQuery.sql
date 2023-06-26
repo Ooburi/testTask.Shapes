@@ -1,0 +1,1 @@
+SELECT [Products].Name,[Categories].Name  FROM [ProductsAndCategories].[dbo].[Products] LEFT JOIN [ProductsAndCategories].[dbo].[Categories] ON [Products].CategoryId = [Categories].Id
